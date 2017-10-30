@@ -1,9 +1,12 @@
 #!encoding:utf-8
 
 from flask import Flask
+from sqlalchemy.ext.declarative import declarative_base
+
 
 from config import config
 
+Base=declarative_base()
 
 def create_app(config_name):
     app=Flask(__name__)
