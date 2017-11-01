@@ -49,8 +49,17 @@ class User(Base):
     lastlogondate=Column(Date)
     lastlogonip=Column(String(32))
 
+    role_id=Column(Integer,nullable=False)
+
     def __repr__(self):
         return self.__tablename__
+
+class Role(Base):
+    __tablename__='role'
+
+    id=Column(Integer,primary_key=True,autoincrement=False)
+
+    role_name=Column(String(32),nullable=False)
 
 
 class Comments(Base):
