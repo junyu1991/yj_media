@@ -1,0 +1,21 @@
+{
+	"sql_config":{
+		"host":"192.168.0.1",
+		"port":"3306",
+		"password":"password",
+		"database":"test"
+	},
+	"server_info":{
+		"server_no":"1",
+		"server_ip":"localhost",
+		"server_port":"6666"
+	},
+	"file_config":{
+		"file_path":["D:/test/test","H:/"],
+		"img_ext":[".jpeg",".gif",".jpg",".png"],
+		"video_ext":[".mp4",".mkv",".rmvb",".avi"],
+		"audio_ext":[".mp3"],
+		"document_ext":[".pdf",".word",".xml"]
+	}
+
+}
